@@ -15,20 +15,20 @@
 </div>
 
 <details>
-  <summary><b>📑 Table of Contents</b> (Click to expand)</summary>
+  <summary><b> Table of Contents</b> (Click to expand)</summary>
   
   1. [Overview](#-overview)
   2. [Key Features](#-key-features)
   3. [System Architecture](#-system-architecture)
   4. [Installation & Setup](#-installation--setup)
-  5. [Dataset details](#-dataset-details)
-  6. [Future Roadmap](#-future-roadmap)
+  5. [Dataset](#-dataset-details)
+  6. [Future Improvements](#-future-roadmap)
   
 </details>
 
 ---
 
-## 🔬 Overview
+## Overview
 
 **L.E.A.F.I.X.** is a cutting-edge Convolutional Neural Network (CNN) application designed to combat agricultural loss by providing instant, highly accurate plant disease diagnostics. 
 
@@ -36,22 +36,17 @@ By leveraging transfer learning via `MobileNetV2` and wrapping the inference eng
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🧠 Model Capabilities
+### Model Capabilities
 - [x] **Transfer Learning:** Fine-tuned `MobileNetV2` base model pre-trained on ImageNet.
 - [x] **Robust Generalization:** Extensive preprocessing and image augmentation (rotation, zooming, flipping) to prevent overfitting.
 - [x] **Multi-Class Classification:** Capable of differentiating between multiple disease states and healthy control leaves across various plant species.
 
-### 💻 Advanced UI/UX (Frontend)
-- [x] **Single-Screen Architecture:** Custom CSS injection completely eliminates vertical scrolling. The UI fits flawlessly on a single screen regardless of the uploaded image dimensions.
-- [x] **Dynamic 3-Column Layout:** A sleek dashboard splitting the visual data, inference statistics, and textual diagnostics perfectly.
-- [x] **Actionable Intelligence:** A custom HTML/CSS "Treatment Box" that maps the ML prediction to probable agronomic care suggestions (equipped with safety disclaimers).
-- [x] **Responsive Sticky Footer:** Modern dark-mode footer with embedded SVG social links.
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 | Component | Technology Used | Purpose |
 | :--- | :--- | :--- |
@@ -63,7 +58,7 @@ By leveraging transfer learning via `MobileNetV2` and wrapping the inference eng
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 Get L.E.A.F.I.X. running on your local machine in under 2 minutes.
 
