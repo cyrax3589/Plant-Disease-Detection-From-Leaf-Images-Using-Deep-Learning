@@ -88,6 +88,7 @@ streamlit run app.py
 
 ## Dataset
 The dataset used is the PlantVillage dataset, containing images of plant leaves categorized into different diseases and healthy classes.
+
 https://www.kaggle.com/datasets/emmarex/plantdisease
 
 ---
