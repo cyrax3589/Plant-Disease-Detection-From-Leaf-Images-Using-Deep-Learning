@@ -1,5 +1,3 @@
-# Plant-Disease-Detection-From-Leaf-Images-Using-Deep-Learning
-A deep learning-based image classification system that detects plant diseases from leaf images using MobileNetV2 and transfer learning. The project includes data preprocessing, model training, evaluation metrics, and a deployment-ready Streamlit web application for real-time predictions.
 # Plant Disease Detection From Leaf Images Using Deep Learning
 
 ## Overview
@@ -29,3 +27,30 @@ The dataset used is the PlantVillage dataset, containing images of plant leaves 
 ```
 https://www.kaggle.com/datasets/emmarex/plantdisease
 ```
+
+---
+
+## Model Details
+- Base Model: MobileNetV2 (pretrained on ImageNet)
+- Input Size: 224x224
+- Loss Function: Categorical Crossentropy
+- Optimizer: Adam
+- Fine-tuning applied on top layers
+
+---
+
+## Evaluation Metrics
+The model is evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+---
+
+## Future Improvements
+- Add Grad-CAM for model interpretability
+- Improve UI design
+- Deploy the application online
+- Expand dataset for more plant species
