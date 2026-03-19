@@ -28,5 +28,4 @@ The dataset used is the PlantVillage dataset, containing images of plant leaves 
 
 ```
 https://www.kaggle.com/datasets/emmarex/plantdisease
-
 ```
